@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Actividad_1</string>
+    <string name="PedirNombre">Escribe tu nombre:</string>
+    <string name="PistaNombre">Nombre</string>
+    <string name="BtnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+</resources>
