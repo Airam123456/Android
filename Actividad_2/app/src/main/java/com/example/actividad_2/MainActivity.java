@@ -20,11 +20,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        btnCinco = (Button) findViewById(R.id.btnCinco);
-        lblSiete = (TextView) findViewById(R.id.lblSiete);
-        txtDos = (EditText) findViewById(R.id.txtDos);
-        txtCuatro = (EditText) findViewById(R.id.txtCuatro);
+        txtDos = (EditText) findViewById(R.id.txtDos); //Primer numero
+        txtCuatro = (EditText) findViewById(R.id.txtCuatro); // Segundo numero
+        btnCinco = (Button) findViewById(R.id.btnCinco); //Boton suma
+        lblSiete = (TextView) findViewById(R.id.lblSiete); // Cuadro de resultado
 
         btnCinco.setOnClickListener(new View.OnClickListener() {
             @Override

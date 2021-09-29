@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Validador DNI</string>
+    <string name="titulo">VALIDAR DNI</string>
+    <string name="dni">Numero Dni</string>
+    <string name="letra">Letra</string>
+    <string name="boton">VALIDAR DNI</string>
+    <string name="correcto">Letra Correcta</string>
+    <string name="fallo">Letra Erronea. La letra correcta es: </string>
+</resources>

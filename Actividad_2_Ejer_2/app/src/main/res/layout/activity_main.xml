@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
-        android:id="@+id/txtDos"
+        android:id="@+id/txtUno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -27,23 +27,23 @@
         app:layout_constraintTop_toBottomOf="@id/lblUno"/>
 
     <TextView
-        android:id="@+id/lblTres"
+        android:id="@+id/lblDos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:layout_margin="15dp"
         android:text="@string/segundo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtDos"/>
+        app:layout_constraintTop_toBottomOf="@id/txtUno"/>
 
     <EditText
-        android:id="@+id/txtCuatro"
+        android:id="@+id/txtDos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/lblTres"/>
+        app:layout_constraintTop_toBottomOf="@id/lblDos"/>
 
     <Button
         android:id="@+id/btnSuma"
@@ -52,7 +52,7 @@
         android:layout_margin="10dp"
         android:text="+"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+        app:layout_constraintTop_toBottomOf="@id/txtDos"/>
 
     <Button
         android:id="@+id/btnResta"
@@ -61,7 +61,7 @@
         android:layout_margin="10dp"
         android:text="-"
         app:layout_constraintLeft_toRightOf="@id/btnSuma"
-        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+        app:layout_constraintTop_toBottomOf="@id/txtDos"/>
 
     <Button
         android:id="@+id/btnMulti"
@@ -70,19 +70,19 @@
         android:layout_margin="10dp"
         android:text="x"
         app:layout_constraintLeft_toRightOf="@id/btnResta"
-        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+        app:layout_constraintTop_toBottomOf="@id/txtDos"/>
 
     <Button
         android:id="@+id/btnDiv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="-"
+        android:text="/"
         app:layout_constraintLeft_toRightOf="@id/btnMulti"
-        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+        app:layout_constraintTop_toBottomOf="@id/txtDos"/>
 
     <TextView
-        android:id="@+id/lblCinco"
+        android:id="@+id/lblTres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="35sp"
@@ -92,11 +92,11 @@
         app:layout_constraintTop_toBottomOf="@id/btnSuma"/>
 
     <TextView
-        android:id="@+id/lblSiete"
+        android:id="@+id/lblResul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="35sp"
         android:layout_margin="15dp"
-        app:layout_constraintStart_toEndOf="@id/lblCinco"
+        app:layout_constraintStart_toEndOf="@id/lblTres"
         app:layout_constraintTop_toBottomOf="@id/btnMulti"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
