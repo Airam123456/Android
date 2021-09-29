@@ -46,23 +46,50 @@
         app:layout_constraintTop_toBottomOf="@id/lblTres"/>
 
     <Button
-        android:id="@+id/btnCinco"
+        android:id="@+id/btnSuma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:text="@string/sumar"
+        android:layout_margin="10dp"
+        android:text="+"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
 
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="-"
+        app:layout_constraintLeft_toRightOf="@id/btnSuma"
+        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="x"
+        app:layout_constraintLeft_toRightOf="@id/btnResta"
+        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="-"
+        app:layout_constraintLeft_toRightOf="@id/btnMulti"
+        app:layout_constraintTop_toBottomOf="@id/txtCuatro"/>
+
     <TextView
-        android:id="@+id/lblSeis"
+        android:id="@+id/lblCinco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="35sp"
         android:layout_margin="15dp"
         android:text="@string/resultado"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnCinco"/>
+        app:layout_constraintTop_toBottomOf="@id/btnSuma"/>
 
     <TextView
         android:id="@+id/lblSiete"
@@ -70,7 +97,6 @@
         android:layout_height="wrap_content"
         android:textSize="35sp"
         android:layout_margin="15dp"
-        app:layout_constraintStart_toEndOf="@id/lblSeis"
-        app:layout_constraintTop_toBottomOf="@id/btnCinco"/>
-
+        app:layout_constraintStart_toEndOf="@id/lblCinco"
+        app:layout_constraintTop_toBottomOf="@id/btnMulti"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
