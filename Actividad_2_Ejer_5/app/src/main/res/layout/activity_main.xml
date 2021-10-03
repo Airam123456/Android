@@ -49,8 +49,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:contentDescription="logos"
-        android:maxHeight="20dp"
-        android:maxWidth="20dp"
         android:layout_marginTop="200dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

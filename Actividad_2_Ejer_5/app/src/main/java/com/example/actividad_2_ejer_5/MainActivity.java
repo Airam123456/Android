@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnBing = (Button) findViewById(R.id.btnBing);
         logo = (ImageView) findViewById(R.id.imgLogo);
 
+        // Listener en el propio boton
         btnBing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,11 +30,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        //Implementando un Listener en el MainActivity
         btnGoogle.setOnClickListener(this);
 
     }
-
-
+    // Metodo onClick en el disenio
     public void btnYa(View view) {
         logo.setImageResource(R.drawable.yahoo_logo);
 
