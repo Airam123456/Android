@@ -42,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
 
             if ((new Character(letra.charAt(0))) != letraDni[numAValidar]) // Comprobamos si la letra introducida es correcta
             {
-                lblResul.setText(R.string.fallo); // Preguntar a Amaia como concatenar aqui
+                lblResul.setText(R.string.fallo); // Letra erronea
             }
             else
-                lblResul.setText(R.string.correcto);
+                lblResul.setText(R.string.correcto); // Todo bien
         }
 
     }

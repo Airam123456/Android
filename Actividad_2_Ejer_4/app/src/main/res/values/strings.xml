@@ -5,6 +5,6 @@
     <string name="letra">Letra</string>
     <string name="boton">VALIDAR DNI</string>
     <string name="correcto">Letra Correcta</string>
-    <string name="fallo">Letra Erronea. La letra correcta es: </string>
+    <string name="fallo">Letra Erronea.</string>
     <string name="noDNI">Formato Desconocido. \nLos DNI deben ser de 8 numeros y 1 letra.</string>
 </resources>

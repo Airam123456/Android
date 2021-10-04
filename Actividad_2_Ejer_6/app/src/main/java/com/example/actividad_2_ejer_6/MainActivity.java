@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Conectores
         btnToggle1 = (ToggleButton)findViewById(R.id.BtnToggle1);
         btnToggle2 = (ToggleButton)findViewById(R.id.BtnToggle2);
         btnSwitch1 = (Switch) findViewById(R.id.swi1);
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         cam2 = (ImageView)findViewById(R.id.imgCam2);
         cam1 = (ImageView)findViewById(R.id.imgCam1);
 
+        // Para las camaras cambiamos la visibilidad
         btnSwitch1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Para la luz cambiamos las fotos
         btnSwitch2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

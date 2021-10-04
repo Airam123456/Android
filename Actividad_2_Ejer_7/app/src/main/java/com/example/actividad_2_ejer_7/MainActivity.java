@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Conectores
         btnCam = (ToggleButton)findViewById(R.id.btnCam);
         btnLuz = (ToggleButton)findViewById(R.id.btnLuz);
         btnPer = (ToggleButton)findViewById(R.id.btnPers);
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         tempElegida = (EditText) findViewById(R.id.txtTemp);
         tempActu = (TextView) findViewById(R.id.lblTem);
 
+        // Cambio de Visibilidad
         btnCam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Cambio de ruta de las fotos
         btnLuz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
+    // Asignar la temp actual
     public void ajustarTemp(View view) {
 
         String temp = tempElegida.getText().toString();
