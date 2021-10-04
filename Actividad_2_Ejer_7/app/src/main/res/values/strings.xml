@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Actividad_2_Ejer_7</string>
+    <string name="app_name">Domotica</string>
     <string name="off">off</string>
     <string name="on">on</string>
     <string name="camaras">Camaras:</string>
     <string name="luces">Luces:</string>
+    <string name="persianas">Persianas:</string>
+    <string name="temp">La temperatura actual es:</string>
 </resources>

@@ -19,16 +19,18 @@
             android:id="@+id/lblCam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/camaras"
             android:textSize="20dp"
-            android:layout_weight="1"/>
+            android:layout_marginTop="15dp"/>
 
-        <ToggleButton android:id="@+id/btnCaM"
+        <ToggleButton android:id="@+id/btnCam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/on"
             android:textOff="@string/off"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"/>
 
         <ImageView
             android:id="@+id/imgCam"
@@ -50,28 +52,105 @@
         app:layout_constraintTop_toBottomOf="@id/line1">
 
         <TextView
-            android:id="@+id/lbl4"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAlignment="center"
+            android:id="@+id/lblLuz"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/luces"
             android:textSize="20dp"
-            android:layout_weight="1"/>
+            android:layout_marginTop="15dp"/>
 
         <ToggleButton android:id="@+id/btnLuz"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:textOn="@string/on"
             android:textOff="@string/off"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"/>
 
         <ImageView
-            android:id="@+id/imgLuz1"
+            android:id="@+id/imgLuz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/luzoff"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line2">
+
+        <TextView
+            android:id="@+id/lblPers"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/persianas"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <ToggleButton
+            android:id="@+id/btnPers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/imgPers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/persianoff"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTxtTem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line3"
+        android:text="@string/temp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/lblTem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/lblTxtTem"
+        app:layout_constraintTop_toBottomOf="@id/line3"
+        android:text="25º"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"/>
+    <Button
+        android:id="@+id/btnTem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Establecer Temperatura"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblTxtTem"
+        android:layout_margin="20dp"
+        android:onClick="ajustarTemp"/>
+
+    <EditText
+        android:id="@+id/txtTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Temp"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/btnTem"
+        app:layout_constraintTop_toBottomOf="@id/lblTxtTem"
+        android:layout_margin="20dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
