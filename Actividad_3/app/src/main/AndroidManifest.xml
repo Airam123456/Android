@@ -10,11 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad_3">
         <activity
+            android:name=".Calculadora"
+            android:exported="true"
+            android:label="Calculadora Simple"/>
+        <activity
             android:name=".Aceptar"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Aceptar" />
         <activity
             android:name=".Verificar"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Verificar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

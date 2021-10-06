@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button act1 = (Button) findViewById(R.id.btnAct1);
+        Button act2 = (Button) findViewById(R.id.btnAct2);
+        Button act3 = (Button) findViewById(R.id.btnAct3);
+        Button act4 = (Button) findViewById(R.id.btnAct4);
 
         act1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,5 +26,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+    }
+
+    public void salir(View view) {
+        finish();
     }
 }
