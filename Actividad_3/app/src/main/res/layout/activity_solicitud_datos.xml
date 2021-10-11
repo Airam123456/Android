@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Solicitud_Datos">
+
+    <TextView
+        android:id="@+id/lblCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Introduce tus datos:"
+        android:textSize="30dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nombre:"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/lblCabecera"
+        app:layout_constraintTop_toBottomOf="@+id/lblCabecera" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:ems="12"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toRightOf="@id/lblNombre"
+        app:layout_constraintTop_toBottomOf="@id/lblCabecera" />
+
+    <TextView
+        android:id="@+id/lblApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Apellidos:"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/lblCabecera"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombre" />
+
+    <EditText
+        android:id="@+id/txtApellidos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="12"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toRightOf="@id/lblApellidos"
+        app:layout_constraintTop_toBottomOf="@id/txtNombre" />
+
+    <TextView
+        android:id="@+id/lblSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Sexo:"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/lblApellidos"
+        app:layout_constraintTop_toBottomOf="@+id/lblApellidos" />
+
+    <RadioGroup
+        android:id="@+id/radioGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/lblApellidos"
+        app:layout_constraintLeft_toRightOf="@+id/lblSexo">
+
+        <RadioButton
+            android:id="@+id/radioMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/radioFemenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femenino" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lblAficiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Aficiones:"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/lblSexo"
+        app:layout_constraintTop_toBottomOf="@+id/radioGrupo" />
+
+    <CheckBox
+        android:id="@+id/checkMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="12dp"
+        android:text="Música"
+        app:layout_constraintLeft_toRightOf="@+id/lblAficiones"
+        app:layout_constraintTop_toBottomOf="@+id/radioGrupo" />
+
+    <CheckBox
+        android:id="@+id/checkLectura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="Lectura"
+        app:layout_constraintLeft_toRightOf="@+id/lblAficiones"
+        app:layout_constraintTop_toBottomOf="@+id/checkMusica" />
+
+    <CheckBox
+        android:id="@+id/checkDeporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="Deportes"
+        app:layout_constraintLeft_toRightOf="@+id/lblAficiones"
+        app:layout_constraintTop_toBottomOf="@+id/checkLectura" />
+
+    <CheckBox
+        android:id="@+id/checkViajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="Viajar"
+        app:layout_constraintLeft_toRightOf="@+id/lblAficiones"
+        app:layout_constraintTop_toBottomOf="@+id/checkDeporte" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:text="ENVIAR"
+        app:layout_constraintStart_toStartOf="@+id/lblCabecera"
+        app:layout_constraintTop_toBottomOf="@+id/checkViajar" />
+
+    <Button
+        android:id="@+id/butVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="32dp"
+        android:text="VOLVER"
+        android:onClick="volver"
+        app:layout_constraintLeft_toRightOf="@+id/btnEnviar"
+        app:layout_constraintTop_toBottomOf="@+id/checkViajar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

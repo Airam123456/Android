@@ -17,15 +17,106 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
-        android:id="@+id/lblSuma1"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/txtSuma1"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="56dp"
-        android:text="4444"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:inputType="number"
+        android:clickable="false"
+        android:focusable="false"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <TextView
+        android:id="@+id/lblSumando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="44dp"
+        android:text="+"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/txtSuma1"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <EditText
+        android:id="@+id/txtSuma2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:inputType="number"
+        android:clickable="false"
+        android:focusable="false"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/lblSumando"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <TextView
+        android:id="@+id/lblIgualdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="44dp"
+        android:text="="
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/txtSuma2"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:inputType="number"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/lblIgualdad"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <Button
+        android:id="@+id/btnComprobarResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:text="COMPROBAR RESULTADO"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSuma2" />
+
+    <TextView
+        android:id="@+id/lblCorrectas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:text="PREGUNTAS CORRECTAS: 0"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnComprobarResult" />
+
+    <TextView
+        android:id="@+id/lblIncorrectas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:text="PREGUNTAS INCORRECTAS: 0"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblCorrectas" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="28dp"
+        android:text="VOLVER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblIncorrectas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

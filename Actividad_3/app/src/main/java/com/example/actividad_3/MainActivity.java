@@ -27,6 +27,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        act2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Calculadora.class);
+                startActivity(intent);
+            }
+        });
+
+        act3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Solicitud_Datos.class);
+                startActivity(intent);
+            }
+        });
+
+        act4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Lanzador_Dados.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     public void salir(View view) {

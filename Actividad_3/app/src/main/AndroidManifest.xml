@@ -10,9 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad_3">
         <activity
+            android:name=".Historial"
+            android:exported="true" />
+        <activity
+            android:name=".Lanzador_Dados"
+            android:exported="true" />
+        <activity
+            android:name=".Registro_Datos"
+            android:exported="true"
+            android:label="Registro de Datos" />
+        <activity
+            android:name=".Solicitud_Datos"
+            android:exported="true"
+            android:label="Solicitud de Datos" />
+        <activity
+            android:name=".Resultado"
+            android:exported="true"
+            android:label="Resultado Operacion" />
+        <activity
             android:name=".Calculadora"
             android:exported="true"
-            android:label="Calculadora Simple"/>
+            android:label="Calculadora Simple" />
         <activity
             android:name=".Aceptar"
             android:exported="true"

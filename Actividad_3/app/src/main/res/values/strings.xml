@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Comunicacíon</string>
+    <string name="frase">El resultado de la operación es:</string>
 </resources>

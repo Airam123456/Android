@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lanzador_Dados">
+
+    <TextView
+        android:id="@+id/lblLanzador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige el Dado"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnDado6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/dado6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblLanzador" />
+
+    <ImageButton
+        android:id="@+id/imgBtnDado10"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/dado10"
+        app:layout_constraintLeft_toRightOf="@id/imgBtnDado6"
+        app:layout_constraintTop_toBottomOf="@+id/lblLanzador" />
+
+    <ImageButton
+        android:id="@+id/imgBtnDado20"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/dado20"
+        app:layout_constraintLeft_toRightOf="@id/imgBtnDado10"
+        app:layout_constraintTop_toBottomOf="@+id/lblLanzador" />
+
+    <TextView
+        android:id="@+id/lblD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Dado 6"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnDado6"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnDado6" />
+
+    <TextView
+        android:id="@+id/lblD10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Dado 10"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnDado10"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnDado10" />
+
+    <TextView
+        android:id="@+id/lblD20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Dado 20"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnDado20"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnDado20" />
+
+    <TextView
+        android:id="@+id/lblTirada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblD10" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="12dp"
+        android:hint="Tirada"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/lblTirada"
+        app:layout_constraintTop_toBottomOf="@+id/lblTirada" />
+
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="75dp"
+        android:text="Historial"
+        android:onClick="historial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="75dp"
+        android:text="Salir"
+        android:onClick="salir"
+        app:layout_constraintLeft_toRightOf="@id/btnHistorial"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

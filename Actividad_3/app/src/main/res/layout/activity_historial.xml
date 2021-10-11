@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Historial">
+
+    <TextView
+        android:id="@+id/lblHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historial de Tiradas"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgDado6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/dado6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblHistorial" />
+
+    <ImageView
+        android:id="@+id/imgDado10"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/dado10"
+        app:layout_constraintLeft_toRightOf="@id/imgDado6"
+        app:layout_constraintTop_toBottomOf="@+id/lblHistorial" />
+
+    <ImageView
+        android:id="@+id/imgDado20"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/dado20"
+        app:layout_constraintLeft_toRightOf="@id/imgDado10"
+        app:layout_constraintTop_toBottomOf="@+id/lblHistorial" />
+
+    <TextView
+        android:id="@+id/lblD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Dado 6"
+        app:layout_constraintStart_toStartOf="@+id/imgDado6"
+        app:layout_constraintTop_toBottomOf="@+id/imgDado6" />
+
+    <TextView
+        android:id="@+id/lblD10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Dado 10"
+        app:layout_constraintStart_toStartOf="@+id/imgDado10"
+        app:layout_constraintTop_toBottomOf="@+id/imgDado10" />
+
+    <TextView
+        android:id="@+id/lblD20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Dado 20"
+        app:layout_constraintStart_toStartOf="@+id/imgDado20"
+        app:layout_constraintTop_toBottomOf="@+id/imgDado20" />
+
+    <TextView
+        android:id="@+id/lblTiradaD6"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/imgDado6"
+        app:layout_constraintTop_toBottomOf="@+id/lblD6" />
+
+    <TextView
+        android:id="@+id/lblTiradaD10"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/imgDado10"
+        app:layout_constraintTop_toBottomOf="@+id/lblD10" />
+
+    <TextView
+        android:id="@+id/lblTiradaD20"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/imgDado20"
+        app:layout_constraintTop_toBottomOf="@+id/lblD20" />
+
+    <Button
+        android:id="@+id/btnLanzador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:onClick="atras"
+        android:text="LANZADOR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTiradaD6" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="32dp"
+        android:onClick="reset"
+        android:text="RESET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTiradaD6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
