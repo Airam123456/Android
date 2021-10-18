@@ -24,6 +24,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="40dp"
         android:text="Actividad_2"
+        android:onClick="actividad2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAct_1" />
 

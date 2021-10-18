@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Actividad_4</string>
+    <string name="titulo_1">Elige un Pais</string>
+    <string-array name="paises">
+        <item>España</item>
+        <item>Portugal</item>
+        <item>Francia</item>
+        <item>Andorra</item>
+    </string-array>
 </resources>
