@@ -5,6 +5,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,26 +29,33 @@ public class Actividad_2 extends AppCompatActivity {
         lista = (ListView) findViewById(R.id.ltsWebs);
         rellenarLista();
 
-        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id)
+            {
+                Webs webSelect = (Webs) parent.getItemAtPosition(position);
+                String urlWeb = webSelect.getUrl();
 
+                Uri uri = Uri.parse(urlWeb);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
-
     }
 
     private void rellenarLista() {
         Webs[] datosWebs =
                 {
-                        new Webs("Youtube", "www.youtube.com", "Para perder tiempo", R.drawable.yt),
-                        new Webs("Spotify", "www.youtube.com", "Para escuchar musica", R.drawable.spotify),
-                        new Webs("Github", "www.youtube.com", "Para copiar", R.drawable.gato),
-                        new Webs("La Voz de Horus", "www.youtube.com", "Para entretenerme", R.drawable.lvdh)
+                        new Webs("Youtube", "https://www.youtube.com/", "Para perder tiempo", R.drawable.yt),
+                        new Webs("Spotify", "https://www.spotify.com/es/", "Para escuchar musica", R.drawable.spotify),
+                        new Webs("Github", "https://github.com/", "Para copiar", R.drawable.gato),
+                        new Webs("La Voz de Horus", "https://www.lavozdehorus.com/", "Para entretenerme", R.drawable.lvdh)
                 };
         AdaptadorWebs AdaptadorWebs = new AdaptadorWebs(this, datosWebs);
         lista.setAdapter(AdaptadorWebs);
     }
+
+    public void salir(View view) {finish(); }
 
     class AdaptadorWebs extends ArrayAdapter<Webs> {
 
@@ -75,5 +84,4 @@ public class Actividad_2 extends AppCompatActivity {
             return (item);
         }
     }
-
 }
