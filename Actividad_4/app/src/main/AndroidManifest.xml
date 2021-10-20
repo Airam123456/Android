@@ -10,11 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad_4">
         <activity
+            android:name=".Actividad_3"
+            android:exported="true"
+            android:label="PERRITO SORPRESA" />
+        <activity
             android:name=".Actividad_2"
-            android:exported="true" />
+            android:exported="true"
+            android:label="URLs" />
         <activity
             android:name=".Actividad_1"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Lista Paises" />
+        <activity
+            android:name=".Visualizador"
+            android:exported="true"
+            android:label="¡¡ENHORABUENA!!" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

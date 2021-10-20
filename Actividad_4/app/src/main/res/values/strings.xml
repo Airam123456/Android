@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Actividad_4</string>
     <string name="titulo_1">Elige un Pais</string>
+    <string name="perro_sorpresa">ELIGE UN PERRO</string>
     <string-array name="paises">
         <item>España</item>
         <item>Portugal</item>

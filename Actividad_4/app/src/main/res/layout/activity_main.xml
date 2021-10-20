@@ -35,6 +35,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="40dp"
         android:text="Actividad_3"
+        android:onClick="actividad3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAct_2" />
 
@@ -45,6 +46,7 @@
         android:layout_marginStart="156dp"
         android:layout_marginTop="124dp"
         android:text="Salir"
+        android:onClick="salir"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAct_3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
