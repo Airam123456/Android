@@ -11,6 +11,7 @@ import android.widget.GridView;
 
 public class Actividad_3 extends AppCompatActivity {
 
+    //Atributos
     private String[] datosGV = new String [9];
     private GridView gvOpciones;
 
@@ -19,10 +20,12 @@ public class Actividad_3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividad3);
 
+        //Poner nombre a las opciones
         for
         (int i=1; i<=9; i++){
             datosGV[i-1]= "Perrito Sorpresa "+i;
         }
+        //Adaptador
         ArrayAdapter<String> adaptador =
                 new ArrayAdapter<String>(this,
                         android.R.layout.simple_list_item_1, datosGV);
@@ -33,6 +36,7 @@ public class Actividad_3 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+                    //Pasamos la posicion como parametro
                     Intent intent = new Intent(Actividad_3.this, Visualizador.class);
                     intent.putExtra("posicion", i);
                     startActivity(intent);
