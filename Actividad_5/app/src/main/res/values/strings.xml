@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Actividad_5</string>
+    <string name="app_name">WhatsApp</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="menuNuevoGrupo">Nuevo Grupo</string>
+    <string name="menuNuevaDifusion">Nueva Difusion</string>
+    <string name="menuDispositivosVincu">Dispositivos Vinculados</string>
+    <string name="menuMensajesDesta">Mensajes Destacados</string>
+    <string name="menuPrivacidadEstados">Privacidad de Estados</string>
+    <string name="menuBorrarResgistro">Borrar Registro de Llamadas</string>
 </resources>

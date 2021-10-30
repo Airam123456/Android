@@ -29,6 +29,8 @@
             android:layout_height="match_parent" />
     </LinearLayout>
 
+
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -36,7 +38,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/verdeWhatsapp"
-        android:src="@drawable/outline_contacts_white_24dp"
+        android:src="@drawable/comment"
         app:backgroundTint="@color/verdeWhatsapp"
         app:rippleColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

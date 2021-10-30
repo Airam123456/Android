@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tabs_appbar.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_buscar"
+        android:title="Buscar"
+        android:icon="@drawable/outline_search_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuNuevoGrupo"
+        android:title="@string/menuNuevoGrupo"
+        />
+    <item
+        android:id="@+id/menuNuevaDifusion"
+        android:title="@string/menuNuevaDifusion"
+        />
+    <item
+        android:id="@+id/menuDispositivosVincu"
+        android:title="@string/menuDispositivosVincu"
+        />
+    <item
+        android:id="@+id/menuMensajesDesta"
+        android:title="@string/menuMensajesDesta"
+        />
+    <item
+        android:id="@+id/menuPrivacidadEstados"
+        android:title="@string/menuPrivacidadEstados"
+        />
+    <item
+        android:id="@+id/menuBorrarResgistro"
+        android:title="@string/menuBorrarResgistro"
+        />
+
+</menu>
