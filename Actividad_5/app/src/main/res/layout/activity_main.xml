@@ -20,8 +20,7 @@
             android:layout_height="wrap_content"
             app:tabGravity="fill"
             app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="@color/gris"
-            android:background="@color/verdeWhatsapp"
+            android:background="@color/verde"
             app:tabIndicatorColor="@color/white"/>
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewpager"
@@ -35,10 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/verdeWhatsapp"
+        android:backgroundTint="@color/verde"
         android:src="@drawable/outline_contacts_white_24dp"
-        app:backgroundTint="@color/verdeWhatsapp"
-        app:rippleColor="@color/white"
+        app:backgroundTint="@color/verde"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         />

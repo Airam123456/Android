@@ -14,6 +14,13 @@
         android:orderInCategory="100"
         app:showAsAction="ifRoom" />
 
+    <item android:id="@+id/action_change"
+        android:title="Comodin"
+        android:icon="@drawable/outline_chat_white_24dp"
+
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
     <item
         android:id="@+id/menuNuevoGrupo"
         android:title="@string/menuNuevoGrupo"

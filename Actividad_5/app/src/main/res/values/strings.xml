@@ -7,4 +7,9 @@
     <string name="menuMensajesDesta">Mensajes Destacados</string>
     <string name="menuPrivacidadEstados">Privacidad de Estados</string>
     <string name="menuBorrarResgistro">Borrar Registro de Llamadas</string>
+
+    <string name="tab1">Chats</string>
+    <string name="tab2">Contactos</string>
+    <string name="tab3">Llamadas</string>
+
 </resources>

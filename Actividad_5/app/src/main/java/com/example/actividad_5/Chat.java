@@ -2,18 +2,28 @@ package com.example.actividad_5;
 
 public class Chat {
 
-    private String contacto, texto;
+    private String contacto, txtChat, txtEstado, fechaLlamada ;
 
-    public Chat (String contacto, String texto){
+    public Chat(String contacto, String txtChat, String txtEstado, String fechaLlamada) {
         this.contacto = contacto;
-        this.texto = texto;
+        this.txtChat = txtChat;
+        this.txtEstado = txtEstado;
+        this.fechaLlamada = fechaLlamada;
     }
 
     public String getContacto() {
         return contacto;
     }
 
-    public String getTexto() {
-        return texto;
+    public String getTxtChat() {
+        return txtChat;
+    }
+
+    public String getTxtEstado() {
+        return txtEstado;
+    }
+
+    public String getFechaLlamada() {
+        return fechaLlamada;
     }
 }
