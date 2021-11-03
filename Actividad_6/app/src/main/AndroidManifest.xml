@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad_6">
         <activity
+            android:name=".FragmentListado"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment_listado"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Actividad_6.NoActionBar">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
