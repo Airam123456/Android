@@ -71,6 +71,7 @@
         android:layout_marginLeft="12dp"
         android:layout_marginTop="32dp"
         android:textSize="30dp"
+        android:inputType="number"
         app:layout_constraintLeft_toRightOf="@id/lblIgualdad"
         app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
 
@@ -91,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="268dp"
         android:text="VOLVER"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnComprobarResult" />
@@ -100,9 +101,25 @@
         android:id="@+id/lblRespuesta"
         android:layout_width="139dp"
         android:layout_height="56dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/btnVolver"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComprobarResult" />
+        app:layout_constraintTop_toBottomOf="@+id/btnComprobarResult"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <Button
+        android:id="@+id/btnNewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva Pregunta"
+        app:layout_constraintBottom_toTopOf="@+id/btnVolver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRespuesta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
