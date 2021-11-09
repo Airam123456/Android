@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESUELVE"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/txtOperando1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:inputType="number"
+        android:clickable="false"
+        android:focusable="false"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <EditText
+        android:id="@+id/txtOperador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/txtOperando1"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <EditText
+        android:id="@+id/txtOperando2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:inputType="number"
+        android:clickable="false"
+        android:focusable="false"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/txtOperador"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <TextView
+        android:id="@+id/lblIgualdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="44dp"
+        android:text="="
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/txtOperando2"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/lblIgualdad"
+        app:layout_constraintTop_toBottomOf="@id/lblTitulo" />
+
+
+    <Button
+        android:id="@+id/btnComprobarResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="60dp"
+        android:text="COMPROBAR RESULTADO"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOperando2" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="176dp"
+        android:text="VOLVER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnComprobarResult" />
+
+    <TextView
+        android:id="@+id/lblRespuesta"
+        android:layout_width="139dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnVolver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnComprobarResult" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
