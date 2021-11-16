@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Examen</string>
+
+    <string name="usuario">Usuario:</string>
+    <string name="contrasenia">Contrasenia:</string>
+    <string name="HintUsuario">Introduce usuario</string>
+    <string name="HintContrasenia">Introduce contraseña</string>
+
+
+    <string name="Bienvenida">Bienvenid@s a la aplicación de Amigos de los museos</string>
+    <string name="by">by Rodrigo</string>
+    <string name="salir">Salir</string>
+    <string name="entrar">Entrar</string>
+    <string name="Desear">¿Que deseas hacer?</string>
+    <string name="Alta">Alta nuevo amigo</string>
+    <string name="ListadoAmigos">Listado amigos del museo</string>
+    <string name="ListadoMuseos">Listado de museos</string>
+    <string name="TituloAlta">DATOS A DAR DE ALTA</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Apellidos">Apellidos:</string>
+    <string name="Sexo">Sexo:</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Museos">Museos en los que estas interesado:</string>
+    <string name="Arte">Arte</string>
+    <string name="Ciencia">Ciencia</string>
+    <string name="Otros">Otros</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="AltaBtn">Alta</string>
+    <string name="Verificacion">Verificación De Datos</string>
+    <string name="Aceptar">Aceptar</string>
+    <string name="Rechazar">Rechazar</string>
+    <string name="TituloMuseos">MUSEOS</string>
+    <string name="Tenemos">Tenemos</string>
+    <string name="NuevosAmigos">nuevos amigos.</string>
+    <string name="Falta">Faltan campos por rellenar.</string>
+    <string name="NoDisponible">Opción no disponible por el momento.</string>
+
+    <string name="Info">Información</string>
+    <string name="UsuarioyContr">Usuario y contraseña incorrectos. Se cerrará la aplicación.</string>
+    <string name="UsuarioyContrNeces">Son necesarios usuario y contraseña. Vuelva a lanzar la aplicación.</string>
+</resources>
