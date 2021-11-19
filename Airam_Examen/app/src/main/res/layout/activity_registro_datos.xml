@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro_Datos">
+
+    <TextView
+        android:id="@+id/txtRDTitulo"
+        android:layout_width="332dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Seleccion de Candidatos"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRDNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDTitulo" />
+
+    <TextView
+        android:id="@+id/txtRDMostrarNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/txtRDNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDTitulo" />
+
+    <TextView
+        android:id="@+id/txtRDFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Fecha de Nacimiento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDNombre" />
+
+    <TextView
+        android:id="@+id/txtRDMostrarFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/txtRDFecha"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDMostrarNombre" />
+
+    <TextView
+        android:id="@+id/txtRDProvincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Provincia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDFecha" />
+
+    <TextView
+        android:id="@+id/txtRDSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Sexo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDProvincia" />
+
+    <TextView
+        android:id="@+id/txtRDConocimientos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Conocimientos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDSexo" />
+
+    <TextView
+        android:id="@+id/txtRDMostrarProvincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/txtRDProvincia"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDMostrarFecha" />
+
+    <TextView
+        android:id="@+id/txtRDMostrarSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/txtRDSexo"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDMostrarProvincia" />
+
+    <TextView
+        android:id="@+id/txtRDMostrarConocimientos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/txtRDConocimientos"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDMostrarSexo" />
+
+    <Button
+        android:id="@+id/btnRDAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="ACEPTAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDConocimientos" />
+
+    <Button
+        android:id="@+id/btnRDRechazar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="RECHAZAR"
+        app:layout_constraintStart_toEndOf="@+id/btnRDAceptar"
+        app:layout_constraintTop_toBottomOf="@+id/txtRDMostrarConocimientos" />
+</androidx.constraintlayout.widget.ConstraintLayout>
