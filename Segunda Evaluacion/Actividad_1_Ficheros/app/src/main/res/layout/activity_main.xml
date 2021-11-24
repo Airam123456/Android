@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblTextoCabecera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="Contenido a escribir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="367dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTextoCabecera" />
+
+    <Button
+        android:id="@+id/btnAniadirFichInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="AÑADIR FICH INT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput" />
+
+    <Button
+        android:id="@+id/btnAniadirFichExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="AÑADIR FICH EXT"
+        app:layout_constraintStart_toEndOf="@+id/btnAniadirFichInt"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput" />
+
+    <Button
+        android:id="@+id/btnLeerFichInt"
+        android:layout_width="104dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="LEER FICH INT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAniadirFichInt" />
+
+    <Button
+        android:id="@+id/btnLeerFichExt"
+        android:layout_width="103dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="LEER FICH EXT"
+        app:layout_constraintStart_toEndOf="@+id/btnLeerFichInt"
+        app:layout_constraintTop_toBottomOf="@+id/btnAniadirFichExt" />
+
+    <Button
+        android:id="@+id/btnLeerRecurso"
+        android:layout_width="110dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="LEER RECURSO"
+        app:layout_constraintStart_toEndOf="@+id/btnLeerFichExt"
+        app:layout_constraintTop_toBottomOf="@+id/btnAniadirFichExt" />
+
+    <Button
+        android:id="@+id/btnBorrarFichInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="BORRAR FICH INT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeerFichInt" />
+
+    <Button
+        android:id="@+id/btnBorrarFichExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="BORRAR FICH EXT"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrarFichInt"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeerRecurso" />
+
+    <TextView
+        android:id="@+id/lblTextoResul"
+        android:layout_width="184dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:text="El contenido del fichero es:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrarFichInt" />
+
+    <TextView
+        android:id="@+id/lblOutout"
+        android:layout_width="370dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="27dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTextoResul" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
