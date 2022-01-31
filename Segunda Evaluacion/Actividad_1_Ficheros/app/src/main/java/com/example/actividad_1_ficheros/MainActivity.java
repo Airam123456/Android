@@ -1,8 +1,12 @@
 package com.example.actividad_1_ficheros;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -21,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             btnBorrarFichInt, btnBorrarFichExt;
     private EditText txtInput;
     private TextView lblOutout;
-    private String fichero = "ejer1";
+    private String fichero = "ejer1.txt";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,11 +72,12 @@ public class MainActivity extends AppCompatActivity {
         }
     });
 
+
+
     btnBorrarFichInt.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            File f = new File(fichero);
-            f.delete();
+            deleteFile(fichero);
         }
     });
 
