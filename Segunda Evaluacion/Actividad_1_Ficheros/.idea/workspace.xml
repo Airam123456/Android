@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5394dc84-56c5-4aa1-983e-b84473a7583e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/androidTest/java/com/example/actividad_1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/java/com/example/actividad_1/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/app/src/test/java/com/example/actividad_1/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/androidTest/java/com/example/actividad_2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/java/com/example/actividad_2/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/app/src/test/java/com/example/actividad_2/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/androidTest/java/com/example/actividad_2_ejer_2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/java/com/example/actividad_2_ejer_2/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/app/src/test/java/com/example/actividad_2_ejer_2/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/androidTest/java/com/example/actividad_2_ejer_3/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/java/com/example/actividad_2_ejer_3/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/app/src/test/java/com/example/actividad_2_ejer_3/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/androidTest/java/com/example/actividad_2_ejer_4/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/java/com/example/actividad_2_ejer_4/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/app/src/test/java/com/example/actividad_2_ejer_4/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_4/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/androidTest/java/com/example/actividad_2_ejer_5/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/java/com/example/actividad_2_ejer_5/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/drawable/bing_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/drawable/google_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/drawable/yahoo_logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/app/src/test/java/com/example/actividad_2_ejer_5/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_5/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/androidTest/java/com/example/actividad_2_ejer_6/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/java/com/example/actividad_2_ejer_6/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/drawable/camara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/drawable/luzoff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/drawable/luzon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/app/src/test/java/com/example/actividad_2_ejer_6/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_6/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/androidTest/java/com/example/actividad_2_ejer_7/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/java/com/example/actividad_2_ejer_7/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/camara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/luzoff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/luzon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/persianaon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/drawable/persianoff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/app/src/test/java/com/example/actividad_2_ejer_7/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_2/Actividad_2_Ejer_7/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/androidTest/java/com/example/actividad_3/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Aceptar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Historial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Lanzador_Dados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Registro_Datos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Resultado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Solicitud_Datos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/java/com/example/actividad_3/Verificar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/drawable/dado10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/drawable/dado20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/drawable/dado6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_aceptar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_calculadora.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_historial.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_lanzador_dados.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_registro_datos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_resultado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_solicitud_datos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/layout/activity_verificar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/app/src/test/java/com/example/actividad_3/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/androidTest/java/com/example/actividad_4/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/java/com/example/actividad_4/Actividad_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/java/com/example/actividad_4/Actividad_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/java/com/example/actividad_4/Actividad_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/java/com/example/actividad_4/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/java/com/example/actividad_4/Visualizador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/java/com/example/actividad_4/Webs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable-v24/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/gato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/lvdh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/puppy_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/spotify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/drawable/yt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/layout/activity_actividad1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/layout/activity_actividad2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/layout/activity_actividad3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/layout/activity_visualizador.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/layout/listitem_web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/app/src/test/java/com/example/actividad_4/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_4/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/androidTest/java/com/example/actividad_5/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/java/com/example/actividad_5/AdaptadorChats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/java/com/example/actividad_5/AdaptadorEstados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/java/com/example/actividad_5/AdaptadorLlamadas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/java/com/example/actividad_5/Chat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/java/com/example/actividad_5/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/baseline_account_circle_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/baseline_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/baseline_search_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/outline_call_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/outline_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/outline_chat_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/outline_contacts_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/drawable/outline_search_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/chats.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/chats_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/estados.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/estados_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/llamadas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/layout/llamadas_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/app/src/test/java/com/example/actividad_5/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_5/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/androidTest/java/com/example/actividad_6/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/java/com/example/actividad_6/FragmentDetalle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/java/com/example/actividad_6/FragmentListado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/java/com/example/actividad_6/Libro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/java/com/example/actividad_6/LibroListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/java/com/example/actividad_6/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/hp7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/layout/activity_fragment_detalle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/layout/activity_fragment_listado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/layout/listitem_libro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/values/ids.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/app/src/test/java/com/example/actividad_6/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_6/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/androidTest/java/com/example/actividad_7/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/java/com/example/actividad_7/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/drawable/hp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/drawable/outline_pets_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/app/src/test/java/com/example/actividad_7/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_7/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/androidTest/java/com/example/actividad_8/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/java/com/example/actividad_8/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/app/src/test/java/com/example/actividad_8/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Actividad_8/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/androidTest/java/com/example/airam_examen/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/Dialogo_Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/Localidad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/Localidades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/Registro_Datos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/Solicitud_Datos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/java/com/example/airam_examen/list_Localidades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/anana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/areatza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/astigarraga.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/balmaseda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/bermeo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/donostia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/gernika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/getxo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/hondarribia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/karrantza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/laguardia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/lekeitio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/logoclase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/ondarroa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/orduna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/pasaia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/vitoria_gasteiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/volver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/drawable/zarautz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/activity_dialogo_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/activity_list_localidades.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/activity_localidades.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/activity_registro_datos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/activity_solicitud_datos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/layout/listitem_localidad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/app/src/test/java/com/example/airam_examen/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/Airam_Examen/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Primera Evaluacion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/actividad_1_ficheros/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/actividad_1_ficheros/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/actividad_1_ficheros/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ejercicio2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/prueba_raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/actividad_1_ficheros/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/dm2/.android/avd/Nexus_6_API_29_Corax.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21M6TBMiDbTobpqG8V9U6SZxNzx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Segunda_Evaluacion/Actividad_1_Ficheros" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1187723408">
+      <recent name="com.example.actividad_1_ficheros" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Actividad_1_Ficheros.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5394dc84-56c5-4aa1-983e-b84473a7583e" name="Default Changelist" comment="" />
+      <created>1637738615011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637738615011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
