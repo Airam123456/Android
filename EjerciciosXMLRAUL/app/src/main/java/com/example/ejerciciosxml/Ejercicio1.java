@@ -1,4 +1,4 @@
-package com.example.actividad_2_xml;
+package com.example.ejerciciosxml;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,21 +17,21 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class Ejercicio1 extends AppCompatActivity {
 
-    public String url = "https://www.esportmaniacos.com/feed/";
-
+    public String url = "https://www.europapress.es/rss/rss.aspx";
     private List<Noticia> noticias;
-    private ListView listNoticias;
+    private ListView listaNoticias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ejercicio1);
 
         cargarConSAXSimplificado();
-        listNoticias = (ListView) findViewById(R.id.listNoticias);
-        listNoticias.setOnItemClickListener((parent, view, position, id) -> {
+
+        listaNoticias = findViewById(R.id.listaNoticias);
+        listaNoticias.setOnItemClickListener((parent, view, position, id) -> {
             Noticia not = (Noticia) parent.getItemAtPosition(position);
             String url = not.getGuid().trim();
 
@@ -41,52 +41,50 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
     public void cargarConSAXSimplificado(){
-        //Carga del XML mediante tarea Asincrona
         CargarXmlTask tarea = new CargarXmlTask();
         tarea.execute(url);
     }
 
-
-    //Tarea Asíncrona para cargar un XML en segundo plano
+    @SuppressLint("StaticFieldLeak")
     private class CargarXmlTask extends AsyncTask<String,Integer,Boolean> {
 
         protected Boolean doInBackground(String... params) {
-            RssParserSAXSimplificado saxparserSimplificado =
-                    new RssParserSAXSimplificado(params[0]);
+            RssParserSAXSimplificadoNoticia saxparserSimplificado =
+                    new RssParserSAXSimplificadoNoticia(params[0]);
             noticias = saxparserSimplificado.parse();
             return true;
         }
 
+        @SuppressLint("SetTextI18n")
         protected void onPostExecute(Boolean result) {
-            Noticia[] todasNoticias = new Noticia[noticias.size()];
+            Noticia[] datos = new Noticia[noticias.size()];
             for (int i = 0; i < noticias.size(); i++) {
-                todasNoticias[i] = noticias.get(i);
+                datos[i] = noticias.get(i);
             }
-           AdaptadorNoticias adaptadorNoticias = new AdaptadorNoticias(getApplicationContext(), todasNoticias);
-            listNoticias.setAdapter(adaptadorNoticias);
+            AdaptadorNoticias adaptadorNoticias = new AdaptadorNoticias(getApplicationContext(), datos);
+            listaNoticias.setAdapter(adaptadorNoticias);
         }
     }
 
-    private static class AdaptadorNoticias extends ArrayAdapter<Noticia>{
-        private final Noticia[] todasNoticias;
+    private static class AdaptadorNoticias extends ArrayAdapter<Noticia> {
 
-        public AdaptadorNoticias(Context context, Noticia[] todasNoticias) {
-            super(context, R.layout.listitem_noticia, todasNoticias);
-            this.todasNoticias = todasNoticias;
+        private final Noticia[] datos;
+
+        public AdaptadorNoticias(Context context, Noticia[] datos) {
+            super(context, R.layout.listitem_noticia, datos);
+            this.datos = datos;
         }
 
         public View getView(int position, View convertView, ViewGroup parent) {
             LayoutInflater inflater = LayoutInflater.from(getContext());
             @SuppressLint({"InflateParams", "ViewHolder"}) View item = inflater.inflate(R.layout.listitem_noticia, null);
 
-            String titulo = todasNoticias[position].getTitulo().trim();
-            TextView txtTitulo = item.findViewById(R.id.txtResultado);
+            String titulo = datos[position].getTitulo().trim();
+            TextView txtTitulo = item.findViewById(R.id.titulo);
             txtTitulo.setText(titulo);
 
             return item;
         }
-
     }
 }
