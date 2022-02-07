@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Examen_2</string>
+    <string name="txt1">Escoge una de las siguientes localidades</string>
+    <string name="butBilbao">BILBO-BILBAO</string>
+    <string name="butVolver">VOLVER</string>
+    <string name="butDonosita">DONOSTIA-SAN SEBASTIAN</string>
+    <string name="butVitoria">VITORIA-GASTEIZ</string>
+    <string name="outputFecha">FECHA</string>
+    <string name="outputTemp">TEMPERATURA</string>
+    <string name="outputEstadoCielo">Estado del cielo</string>
+
+
+    <string name="tituloBBDD">Gestion Base de Datos</string>
+    <string name="butCrearCli">Crear/Modif Cliente</string>
+    <string name="butcrearFact">Crear Factura</string>
+    <string name="butConsul">Consultar Factura</string>
+
+</resources>
