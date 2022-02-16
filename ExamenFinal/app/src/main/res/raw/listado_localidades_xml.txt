@@ -1,0 +1,14 @@
+Vitoria-Gasteiz; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8043
+Bilbao; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8050
+Donostia-San Sebastian; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=4917
+Iruña Oka-Iruña de Oca; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8023
+Llodio; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8014
+Laguardia; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8019
+Durango; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8081
+Gernika-Lumo; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8103
+Leioa; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=8112
+Oñati; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=4852
+Arrasate-Mondragón; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=4856
+Astigarraga; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=4901
+Burgos; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=6872
+Miranda de Ebro; https://api.tutiempo.net/xml/?lan=es&apid=qsTX4X4qq44as6Q&lid=6702
